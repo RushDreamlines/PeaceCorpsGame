@@ -1,0 +1,35 @@
+/* cacti */
+.sprite-cactus {
+    width: 32px;
+    height: 32px;
+    background-image: url('/assets/cacti.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+/* rock */
+.sprite-rock {
+    width: 32px;
+    height: 32px;
+    background-image: url('/assets/rock.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+/* shrubs */
+.sprite-shrub {
+    width: 32px;
+    height: 32px;
+    background-image: url('/assets/shrub.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+/* gulez */
+.sprite-gulez {
+    width: 128px;
+    height: 128px;
+    background-image: url('/assets/gulez.png');
+    background-repeat: no-repeat;
+    display: block;
+}

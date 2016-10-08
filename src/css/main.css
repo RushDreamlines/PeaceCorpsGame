@@ -1,0 +1,69 @@
+#game {
+    margin: auto;
+}
+
+h1.title {
+    text-align: center;
+}
+
+.indiv-stats {
+    font-weight: 500;
+    padding: 0 20;
+}
+
+.stats {
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.wrapper {
+    width: 800px;
+    margin-top: 20px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+#chat {
+    font: 13px Helvetica, Arial;
+    width: 800px;
+    height: 250px;
+    margin-top: 10px;
+    border: solid black 1px;
+    overflow: auto;
+    position: relative;
+}
+
+#chat #messages {
+    overflow: auto;
+    padding: 0 7px;
+    max-width: 790px;
+    max-height: 210px;
+}
+
+
+#chat .input-container {
+    position: absolute;
+    bottom: 0;
+    width: 800px;
+    height: 30px;
+    border-top: solid black 1px;
+}
+
+#chat #chat-message {
+    height: 30px;
+    width: 750px;
+    padding-left: 7px;
+    border: 0px solid black;
+}

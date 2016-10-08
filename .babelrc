@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "latest",
+    "stage-1"
+  ],
+  "ignore": [
+    "build",
+    "node_modules"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "nodeModules": {
+    "modules": "./node_modules",
+    "js": [
+      "./node_modules/jquery/dist/jquery.min.js",
+      "./node_modules/craftyjs/dist/crafty-min.js",
+      "./node_modules/socket.io-client/socket.io.js"
+    ],
+    "css": [
+      "./node_modules/bootstrap/dist/css/*.css"
+    ]
+  },
+  "src": "./src",
+  "assets": "./src/**/assets/*.*",
+  "index": "./src/index.pug",
+  "js": [
+    "./src/**/*.js",
+    "!./src/**/*.mocha.js"
+  ],
+  "css": ["./src/**/*.css"],
+  "dest": {
+    "dev": "./dev",
+    "prod": "./prod",
+    "prodapi": "./prod-api",
+    "assets": "./dev/assets",
+    "src": {
+      "js": "./src/js"
+    }
+  },
+  "clean": {
+    "dev": "./dev/**/*.*"
+  }
+}

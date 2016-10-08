@@ -1,0 +1,21 @@
+html
+    head
+        link(rel="stylesheet" type="text/css" href="css/main.css")
+        script(src='js/main.js', type='text/javascript')
+    body()
+        h1.title Daily Life In The Peace Corp
+        div.m-auto.stats
+            span(id="currentPlayer").indiv-stats Current Player: Anon
+            span(id="currentDay").indiv-stats Day 1
+            span(id="depression").indiv-stats Depression Level: 0
+        div(id="game")
+        div.wrapper.m-auto
+            div(id="pickUser")
+                input(type="text" id="usernameInput" placeholder="Username")
+                button(id="submitUsername" onClick="Sockets().setUsername()") Set
+                controls.ml-10 Controls: Directional Arrows to move, push Q to reflect on life choices.
+            div(id="chat")
+                div(id="messages")
+                div.input-container
+                    input(type="text" maxlength="100" id="chat-message" placeholder="Type a message")
+                    button(id="chat-button-submit" onClick="Sockets().sendMessage()") Send
