@@ -17,7 +17,7 @@ Status | Control Character | Reflect On Life Choices | Leave A Message
 
 * You can't really do anything other than move the character if you're in control and reflect on life choices. This is intentional.
 
-## Play with it yours
+## Play with it yourself
 
 Install: `npm i`
 
