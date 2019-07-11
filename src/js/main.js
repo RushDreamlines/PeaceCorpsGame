@@ -1,4 +1,4 @@
-var socket = io.connect('http://giulianilopez.com:6555');
+var socket = io.connect('http://localhost:6555');
 socket.emit('connected', { my: 'data' });
 
 $(document).ready(function() {

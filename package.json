@@ -3,19 +3,24 @@
   "version": "1.0.0",
   "description": "test",
   "main": "program.js",
-  "scripts": {},
+  "scripts": {
+    "start:server": "node ./server/main.js",
+    "start:app": "gulp build && http-server ./dist"
+  },
   "babel": {
     "presets": [
       "es2015"
     ]
   },
+  "engines": {
+    "node": "<=9.11.2"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.4.6",
+    "craftyjs": "0.7.1",
     "express": "^4.14.0",
-    "gulp": "^3.9.1",
-    "gulp-flatten": "^0.3.1",
     "jquery": "^3.1.0",
     "socket.io": "^1.4.8"
   },
@@ -26,10 +31,14 @@
     "chai": "^3.5.0",
     "del": "^2.2.2",
     "eslint": "^3.4.0",
+    "gulp": "^3.9.1",
+    "gulp-flatten": "^0.3.1",
     "gulp-concat": "^2.6.0",
     "gulp-eslint": "^3.0.1",
     "gulp-pug": "^3.0.4",
+    "http-server": "^0.11.1",
     "mocha": "^3.0.2",
+    "prettier": "^1.18.2",
     "pug": "^2.0.0-beta6",
     "run-sequence": "^1.2.2"
   }

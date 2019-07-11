@@ -3,8 +3,8 @@
     "modules": "./node_modules",
     "js": [
       "./node_modules/jquery/dist/jquery.min.js",
-      "./node_modules/craftyjs/dist/crafty-min.js",
-      "./node_modules/socket.io-client/socket.io.js"
+      "./node_modules/socket.io-client/dist/socket.io.min.js",
+      "./node_modules/craftyjs/dist/crafty-min.js"
     ],
     "css": [
       "./node_modules/bootstrap/dist/css/*.css"
@@ -19,15 +19,13 @@
   ],
   "css": ["./src/**/*.css"],
   "dest": {
-    "dev": "./dev",
-    "prod": "./prod",
-    "prodapi": "./prod-api",
-    "assets": "./dev/assets",
+    "path": "./dist",
+    "assets": "./dist/assets",
     "src": {
       "js": "./src/js"
     }
   },
   "clean": {
-    "dev": "./dev/**/*.*"
+    "path": "./dist/**/*.*"
   }
 }
