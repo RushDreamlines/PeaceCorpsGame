@@ -22,7 +22,7 @@
     "craftyjs": "0.7.1",
     "express": "^4.14.0",
     "jquery": "^3.1.0",
-    "socket.io": "^1.4.8"
+    "socket.io": "^2.4.0"
   },
   "devDependencies": {
     "babel-cli": "^6.14.0",
